@@ -11,6 +11,16 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CHE8F19T1R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CHE8F19T1R');
+</script>
 </head>
 <body>
     <div class="page-wrapper">
@@ -50,5 +60,21 @@
     <div class="space">
         <h5>SAHL&copy;2025</h5>
     </div>
+
+    <script>
+    window.addEventListener("DOMContentLoaded", function() {
+      document.querySelectorAll(".CTA").forEach(function(element) {
+        element.addEventListener("click", function() {
+          console.log("CTA pressed ✅"); // للتأكد في الـ Console
+          gtag('event', 'cta_click', {
+            'event_category': 'engagement',
+            'event_label': element.innerText,
+            'value': 1
+          });
+        });
+      });
+    });
+  </script>
 </body>
+
 </html>
