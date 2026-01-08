@@ -12,6 +12,10 @@ body {
     margin: 0;
 }
 
+.en {
+    font-family: 'Montserrat', sans-serif;
+}
+
 * {
     box-sizing: border-box;
 }
