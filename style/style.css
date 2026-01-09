@@ -86,6 +86,15 @@ h1 {
     width: 100%;
 }
 
+.whats-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    gap: 0.2vw;
+}
+
 .whats {
     text-decoration: none;
     padding: 8px 10px;
@@ -96,6 +105,10 @@ h1 {
     justify-content: center;
     align-items: center;
     border-radius: max(2rem, 2vw);
+}
+
+.icon {
+    width: 3vw;
 }
 
 .whats:hover {
@@ -129,10 +142,19 @@ footer {
     justify-content: center;
 }
 
+.delivery-img-container a {
+    transition: transform 0.3s ease;
+}
+
+.delivery-img-container a:hover {
+    transform: scale(1.15);
+}
+
 .img-p {
     margin: 0;
     font-size: 1vw;
     color: #ffffff;
+    text-align: center;
 }
 
 .delivery-img {
@@ -169,8 +191,16 @@ h5 {
         font-size: 3vw;
     }
 
+    .whats-container {
+        gap: 0.5vw;
+    }
+
     .whats {
         font-size: 3vw;
+    }
+
+    .icon {
+        width: 6.5vw;
     }
 
     .footer-p {
@@ -217,8 +247,16 @@ h5 {
         font-size: 5vw;
     }
 
+    .whats-container {
+        gap: 1.2vw;
+    }
+
     .whats {
         font-size: 4.5vw;
+    }
+
+    .icon {
+        width: 10vw;
     }
 
     .footer-p {
