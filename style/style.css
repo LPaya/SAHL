@@ -5,11 +5,13 @@ html {
     font-style: normal;
 }
 
-html,body {
-    height: 100%;
-    background-image: url(../images/background.png);
-    padding: 0;
+html,
+body {
     margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: #0b2c33; /* نفس لون الخلفية */
+    overflow-x: hidden;
 }
 
 .en {
