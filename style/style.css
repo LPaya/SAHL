@@ -5,7 +5,7 @@ html {
     font-style: normal;
 }
 
-body {
+html,body {
     height: 100%;
     background-image: url(../images/background.png);
     padding: 0;
@@ -323,6 +323,7 @@ h5 {
         height: 100%;
         border-radius: 0;
         padding: 2.5vw;
+        margin: 0;
     }
 
     .page-wrapper {
