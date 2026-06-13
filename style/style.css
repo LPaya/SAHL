@@ -7,7 +7,7 @@ html {
 
 body {
     height: 100%;
-    background-color: #3E5254;
+    background-image: url(../images/background.png);
     padding: 0;
     margin: 0;
 }
@@ -22,7 +22,7 @@ body {
 
 .page-wrapper-w {
     width: max(35%, 350px);
-    margin: auto;
+    margin: 3vh auto;
     box-shadow: 0 8px 16px;
     background-image: url(../images/background.png);
     background-size: contain;
